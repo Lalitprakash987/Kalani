@@ -1,0 +1,51 @@
+15:48:05.979 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+15:48:45.275 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+15:48:52.795 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+15:48:56.464 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitContactForm
+15:48:56.808 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:48:58.899 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyContatusFormSubmission
+15:48:59.161 [main] INFO  Pageobject.BaseClass - WebDriver quit
+15:49:23.214 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+15:49:25.038 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:49:28.676 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitQueryForm
+15:49:29.276 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:49:32.358 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyQueryFormSubmission
+15:49:32.573 [main] INFO  Pageobject.BaseClass - WebDriver quit
+15:53:23.716 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+15:53:31.310 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+15:53:35.194 [main] INFO  Pageobject.BaseClass - Screenshot taken: screenshots/testSubmitContactForm.png
+15:53:35.200 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitContactForm
+15:53:35.542 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:53:37.718 [main] INFO  Pageobject.BaseClass - Screenshot taken: screenshots/testEmptyContatusFormSubmission.png
+15:53:37.722 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyContatusFormSubmission
+15:53:37.974 [main] INFO  Pageobject.BaseClass - WebDriver quit
+15:54:01.319 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+15:54:03.218 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:54:06.895 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitQueryForm
+15:54:07.489 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:54:10.561 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyQueryFormSubmission
+15:54:10.751 [main] INFO  Pageobject.BaseClass - WebDriver quit
+15:58:57.222 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+15:59:05.544 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+15:59:09.682 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitContactForm
+15:59:10.292 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:59:12.471 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyContatusFormSubmission
+15:59:12.757 [main] INFO  Pageobject.BaseClass - WebDriver quit
+15:59:40.906 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+15:59:42.842 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:59:46.469 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitQueryForm
+15:59:47.157 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+15:59:50.224 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyQueryFormSubmission
+15:59:50.449 [main] INFO  Pageobject.BaseClass - WebDriver quit
+16:03:23.535 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+16:03:30.780 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+16:03:34.618 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitContactForm
+16:03:34.961 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+16:03:37.132 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyContatusFormSubmission
+16:03:37.370 [main] INFO  Pageobject.BaseClass - WebDriver quit
+16:04:01.523 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+16:04:03.402 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+16:04:07.283 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitQueryForm
+16:04:07.870 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+16:04:11.046 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyQueryFormSubmission
+16:04:11.265 [main] INFO  Pageobject.BaseClass - WebDriver quit

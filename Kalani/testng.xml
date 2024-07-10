@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Suite" verbose="1" parallel="false">
-    <listeners>
-        <listener class-name="Utility.TestListener" />
-    </listeners>
-    <test name="ContactUs Tests">
-        <classes>
-            <class name="TestCases.ContactUsTC" />
-            <class name="TestCases.QueryTC" />
-        </classes>
-    </test>
+	<listeners>
+		<listener class-name="Utility.TestListener" />
+	</listeners>
+	<test name="ContactUs Tests">
+		<classes>
+			<class name="TestCases.ContactUsTC" />
+			<class name="TestCases.QueryTC" />
+			<class name="TestCases.CareersProfessionalsTC" />
+			<class name="TestCases.CareersFirmCollaborationsTC" />
+		</classes>
+	</test>
 </suite>

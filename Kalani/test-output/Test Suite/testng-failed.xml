@@ -6,13 +6,16 @@
   </listeners>
   <test thread-count="5" name="ContactUs Tests(failed)">
     <classes>
-      <class name="TestCases.ContactUsTC">
+      <class name="TestCases.CareersTC">
         <methods>
-          <include name="testEmptyFormSubmission"/>
+          <include name="testEmptyCareersProfessionalsFormSubmission"/>
+          <include name="onTestCompletion"/>
+          <include name="tearDownExtentReports"/>
           <include name="tearDown"/>
+          <include name="setUpExtentReports"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.ContactUsTC -->
+      </class> <!-- TestCases.CareersTC -->
     </classes>
   </test> <!-- ContactUs Tests(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->

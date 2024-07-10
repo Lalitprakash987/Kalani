@@ -3,17 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.ContactUsTC">
+      <class name="TestCases.CareersFirmCollaborationsTC">
         <methods>
-          <include name="testEmptyContatusFormSubmission"/>
-          <include name="testSubmitContactForm"/>
+          <include name="testCareers1ProfessionalsFormSubmission"/>
           <include name="onTestCompletion"/>
           <include name="tearDownExtentReports"/>
           <include name="tearDown"/>
           <include name="setUpExtentReports"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.ContactUsTC -->
+      </class> <!-- TestCases.CareersFirmCollaborationsTC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

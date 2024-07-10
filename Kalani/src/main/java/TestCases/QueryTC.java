@@ -87,7 +87,6 @@ public class QueryTC extends BaseClass {
         test.info("Scrolled the page");
 
         Thread.sleep(2000);
-
         Query.ClickSendMessage();
         test.info("Clicked on send message with empty form");
 

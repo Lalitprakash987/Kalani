@@ -1,99 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-07-08T16:02:59 IST" name="Test Suite" finished-at="2024-07-08T16:04:11 IST" duration-ms="72036">
+  <suite started-at="2024-07-10T17:33:46 IST" name="Default suite" finished-at="2024-07-10T17:34:09 IST" duration-ms="22373">
     <groups>
     </groups>
-    <test started-at="2024-07-08T16:02:59 IST" name="ContactUs Tests" finished-at="2024-07-08T16:04:11 IST" duration-ms="72036">
-      <class name="TestCases.QueryTC">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.QueryTC@906d29b]" started-at="2024-07-08T16:03:37 IST" name="setUp" finished-at="2024-07-08T16:04:01 IST" duration-ms="24152" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testSubmitQueryForm()[pri:1, instance:TestCases.QueryTC@906d29b]" started-at="2024-07-08T16:04:01 IST" name="testSubmitQueryForm" finished-at="2024-07-08T16:04:07 IST" duration-ms="5758" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSubmitQueryForm -->
-        <test-method is-config="true" signature="onTestCompletion(org.testng.ITestResult)[pri:0, instance:TestCases.QueryTC@906d29b]" started-at="2024-07-08T16:04:07 IST" name="onTestCompletion" finished-at="2024-07-08T16:04:07 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testSubmitQueryForm status=SUCCESS method=QueryTC.testSubmitQueryForm()[pri:1, instance:TestCases.QueryTC@906d29b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onTestCompletion -->
-        <test-method signature="testEmptyQueryFormSubmission()[pri:2, instance:TestCases.QueryTC@906d29b]" started-at="2024-07-08T16:04:07 IST" name="testEmptyQueryFormSubmission" finished-at="2024-07-08T16:04:11 IST" duration-ms="3760" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEmptyQueryFormSubmission -->
-        <test-method is-config="true" signature="onTestCompletion(org.testng.ITestResult)[pri:0, instance:TestCases.QueryTC@906d29b]" started-at="2024-07-08T16:04:11 IST" name="onTestCompletion" finished-at="2024-07-08T16:04:11 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testEmptyQueryFormSubmission status=SUCCESS method=QueryTC.testEmptyQueryFormSubmission()[pri:2, instance:TestCases.QueryTC@906d29b] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onTestCompletion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.QueryTC@906d29b]" started-at="2024-07-08T16:04:11 IST" name="tearDown" finished-at="2024-07-08T16:04:11 IST" duration-ms="219" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- TestCases.QueryTC -->
-      <class name="TestCases.ContactUsTC">
-        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:TestCases.ContactUsTC@7d64e326]" started-at="2024-07-08T16:02:59 IST" name="setUpExtentReports" finished-at="2024-07-08T16:02:59 IST" duration-ms="196" status="PASS">
+    <test started-at="2024-07-10T17:33:46 IST" name="Default test" finished-at="2024-07-10T17:34:09 IST" duration-ms="22373">
+      <class name="TestCases.CareersFirmCollaborationsTC">
+        <test-method is-config="true" signature="setUpExtentReports()[pri:0, instance:TestCases.CareersFirmCollaborationsTC@63a270c9]" started-at="2024-07-10T17:33:46 IST" name="setUpExtentReports" finished-at="2024-07-10T17:33:46 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpExtentReports -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.ContactUsTC@7d64e326]" started-at="2024-07-08T16:02:59 IST" name="setUp" finished-at="2024-07-08T16:03:23 IST" duration-ms="24297" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCases.CareersFirmCollaborationsTC@63a270c9]" started-at="2024-07-10T17:33:46 IST" name="setUp" finished-at="2024-07-10T17:34:02 IST" duration-ms="15889" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testSubmitContactForm()[pri:1, instance:TestCases.ContactUsTC@7d64e326]" started-at="2024-07-08T16:03:23 IST" name="testSubmitContactForm" finished-at="2024-07-08T16:03:34 IST" duration-ms="11064" status="PASS">
+        <test-method signature="testCareers1ProfessionalsFormSubmission()[pri:1, instance:TestCases.CareersFirmCollaborationsTC@63a270c9]" started-at="2024-07-10T17:34:02 IST" name="testCareers1ProfessionalsFormSubmission" finished-at="2024-07-10T17:34:09 IST" duration-ms="6436" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSubmitContactForm -->
-        <test-method is-config="true" signature="onTestCompletion(org.testng.ITestResult)[pri:0, instance:TestCases.ContactUsTC@7d64e326]" started-at="2024-07-08T16:03:34 IST" name="onTestCompletion" finished-at="2024-07-08T16:03:34 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- testCareers1ProfessionalsFormSubmission -->
+        <test-method is-config="true" signature="onTestCompletion(org.testng.ITestResult)[pri:0, instance:TestCases.CareersFirmCollaborationsTC@63a270c9]" started-at="2024-07-10T17:34:09 IST" name="onTestCompletion" finished-at="2024-07-10T17:34:09 IST" duration-ms="14" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSubmitContactForm status=SUCCESS method=ContactUsTC.testSubmitContactForm()[pri:1, instance:TestCases.ContactUsTC@7d64e326] output={null}]]]>
+                <![CDATA[[TestResult name=testCareers1ProfessionalsFormSubmission status=SUCCESS method=CareersFirmCollaborationsTC.testCareers1ProfessionalsFormSubmission()[pri:1, instance:TestCases.CareersFirmCollaborationsTC@63a270c9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onTestCompletion -->
-        <test-method signature="testEmptyContatusFormSubmission()[pri:2, instance:TestCases.ContactUsTC@7d64e326]" started-at="2024-07-08T16:03:34 IST" name="testEmptyContatusFormSubmission" finished-at="2024-07-08T16:03:37 IST" duration-ms="2508" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testEmptyContatusFormSubmission -->
-        <test-method is-config="true" signature="onTestCompletion(org.testng.ITestResult)[pri:0, instance:TestCases.ContactUsTC@7d64e326]" started-at="2024-07-08T16:03:37 IST" name="onTestCompletion" finished-at="2024-07-08T16:03:37 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testEmptyContatusFormSubmission status=SUCCESS method=ContactUsTC.testEmptyContatusFormSubmission()[pri:2, instance:TestCases.ContactUsTC@7d64e326] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- onTestCompletion -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.ContactUsTC@7d64e326]" started-at="2024-07-08T16:03:37 IST" name="tearDown" finished-at="2024-07-08T16:03:37 IST" duration-ms="238" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestCases.CareersFirmCollaborationsTC@63a270c9]" started-at="2024-07-10T17:34:09 IST" name="tearDown" finished-at="2024-07-10T17:34:09 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:TestCases.ContactUsTC@7d64e326]" started-at="2024-07-08T16:04:11 IST" name="tearDownExtentReports" finished-at="2024-07-08T16:04:11 IST" duration-ms="66" status="PASS">
+        <test-method is-config="true" signature="tearDownExtentReports()[pri:0, instance:TestCases.CareersFirmCollaborationsTC@63a270c9]" started-at="2024-07-10T17:34:09 IST" name="tearDownExtentReports" finished-at="2024-07-10T17:34:09 IST" duration-ms="127" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownExtentReports -->
-      </class> <!-- TestCases.ContactUsTC -->
-    </test> <!-- ContactUs Tests -->
-  </suite> <!-- Test Suite -->
+      </class> <!-- TestCases.CareersFirmCollaborationsTC -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

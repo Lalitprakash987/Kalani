@@ -1,5 +1,7 @@
 package Pageobject;
 
+import java.io.File;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -58,6 +60,22 @@ public class CareersFirmCollaborations extends BaseClass {
 	public void EnterHeadofficelocation(String abc) {
 		WebElement Headofficelocation = driver.findElement(By.id("location_of_head_office"));
 		Headofficelocation.sendKeys(abc);
+
+	}
+	public void uploadProfileofthefirm(String filePath) {
+		WebElement uploadInput = driver.findElement(By.id("firmfile")); // Replace with actual ID or locator
+		uploadInput.sendKeys(new File(filePath).getAbsolutePath());
+
+	}
+	public void EnterDescription(String abc) {
+		WebElement Description = driver.findElement(By.id("firmdescription"));
+		Description.sendKeys(abc);
+
+	}
+
+	public void ClickSendMessage() {
+		WebElement SendMessage = driver.findElement(By.xpath("//button[@form='firmCollaborationform']"));
+		SendMessage.click();
 
 	}
 	

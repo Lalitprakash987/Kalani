@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -18,7 +16,6 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Listeners;
 
 import com.aventstack.extentreports.ExtentReports;
@@ -35,9 +32,9 @@ public class BaseClass {
 	protected static Query Query;
 	protected static CareersProfessionals Careers;
 	protected static CareersFirmCollaborations Careers1;
+	protected static Articleship Articleship;
 	protected static ExtentReports extent;
 	protected static ExtentTest test;
-	private static final Logger logger = LogManager.getLogger(BaseClass.class);
 
 	@BeforeSuite
 	public void setUpExtentReports() {
@@ -73,7 +70,14 @@ public class BaseClass {
 		Query = new Query(driver);
 		Careers = new CareersProfessionals(driver);
 		Careers1 = new CareersFirmCollaborations(driver);
-		logger.info("WebDriver initialized and website opened");
+		Articleship = new Articleship(driver);
+	}
+
+	// Method to set implicit waits
+	@SuppressWarnings("deprecation")
+	public void setImplicitWait(long duration, TimeUnit unit) {
+		driver.manage().timeouts().implicitlyWait(duration, unit);
+
 	}
 
 	public String takeScreenshot(String methodName) {
@@ -96,21 +100,18 @@ public class BaseClass {
 		// Scroll the page horizontally and vertically
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollBy(arguments[0], arguments[1]);", x, y);
-		logger.info("Page scrolled horizontally by " + x + " and vertically by " + y);
 	}
 
 	public void scrollPageToTop() {
 		// Scroll the page to the top
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, 0);");
-		logger.info("Page scrolled to top");
 	}
 
 	public void scrollPageToBottom() {
 		// Scroll the page to the bottom
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		js.executeScript("window.scrollTo(0, document.body.scrollHeight);");
-		logger.info("Page scrolled to bottom");
 	}
 
 	@AfterMethod
@@ -118,13 +119,10 @@ public class BaseClass {
 		if (result.getStatus() == ITestResult.FAILURE) {
 			test.fail(result.getThrowable());
 			takeScreenshot("screenshots/" + result.getMethod().getMethodName() + ".png");
-			logger.error("Test failed: " + result.getMethod().getMethodName());
 		} else if (result.getStatus() == ITestResult.SUCCESS) {
 			test.pass("Test passed");
-			logger.info("Test passed: " + result.getMethod().getMethodName());
 		} else if (result.getStatus() == ITestResult.SKIP) {
 			test.skip(result.getThrowable());
-			logger.warn("Test skipped: " + result.getMethod().getMethodName());
 		}
 		test.info("Test End Time: " + result.getEndMillis());
 	}
@@ -134,7 +132,6 @@ public class BaseClass {
 		// Quit the driver
 		if (driver != null) {
 		//	driver.quit();
-			logger.info("WebDriver quit");
 		}
 	}
 

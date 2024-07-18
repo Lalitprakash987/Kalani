@@ -4,12 +4,13 @@
 	<listeners>
 		<listener class-name="Utility.TestListener" />
 	</listeners>
-	<test name="ContactUs Tests">
+	<test name="Form Submission Tests">
 		<classes>
 			<class name="TestCases.ContactUsTC" />
 			<class name="TestCases.QueryTC" />
 			<class name="TestCases.CareersProfessionalsTC" />
 			<class name="TestCases.CareersFirmCollaborationsTC" />
+			<class name="TestCases.ArticleshipTC" />
 		</classes>
 	</test>
 </suite>

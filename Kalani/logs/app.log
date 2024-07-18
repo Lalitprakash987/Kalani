@@ -143,3 +143,157 @@
 17:34:02.859 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
 17:34:09.233 [main] INFO  Pageobject.BaseClass - Test passed: testCareers1ProfessionalsFormSubmission
 17:34:09.235 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:02:23.935 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:02:24.044 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:02:30.967 [main] INFO  Pageobject.BaseClass - Test passed: testCareers1ProfessionalsFormSubmission
+11:02:30.972 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:05:37.564 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:05:37.679 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:05:44.173 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+11:05:45.400 [main] ERROR Pageobject.BaseClass - Test failed: testCareers1ProfessionalsFormSubmission
+11:05:45.402 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:07:43.560 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:07:43.669 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:07:51.173 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+11:07:54.405 [main] ERROR Pageobject.BaseClass - Test failed: testCareers1ProfessionalsFormSubmission
+11:07:54.407 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:08:52.873 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:08:52.990 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:08:59.393 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:09:02.717 [main] ERROR Pageobject.BaseClass - Test failed: testCareers1ProfessionalsFormSubmission
+11:09:02.719 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:15:04.511 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:15:04.635 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:15:11.065 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:15:19.237 [main] INFO  Pageobject.BaseClass - Test passed: testCareersCollaborationsFormSubmission
+11:15:22.851 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+11:15:25.008 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyCareersCollaborationsFormSubmission
+11:15:25.009 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:18:35.220 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:18:35.335 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:18:42.242 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:18:48.930 [main] INFO  Pageobject.BaseClass - Test passed: testCareersCollaborationsFormSubmission
+11:18:52.366 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+11:18:54.505 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyCareersCollaborationsFormSubmission
+11:18:54.507 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:19:33.926 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:19:41.389 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+11:19:45.330 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitContactForm
+11:19:45.681 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:19:47.918 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyContatusFormSubmission
+11:19:47.922 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:19:49.255 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:20:28.268 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:20:32.119 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitQueryForm
+11:20:32.719 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:20:35.883 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyQueryFormSubmission
+11:20:35.884 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:21:11.834 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:21:11.909 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:21:18.687 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+11:21:24.055 [main] INFO  Pageobject.BaseClass - Test passed: testCareersProfessionalsFormSubmission
+11:21:27.600 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+11:21:29.762 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyCareersProfessionalsFormSubmission
+11:21:29.763 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:22:05.731 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:22:05.803 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:22:12.605 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:22:20.498 [main] INFO  Pageobject.BaseClass - Test passed: testCareersCollaborationsFormSubmission
+11:22:24.036 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+11:22:26.216 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyCareersCollaborationsFormSubmission
+11:22:26.217 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:37:06.159 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:37:06.255 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:37:13.267 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:37:44.340 [main] ERROR Pageobject.BaseClass - Test failed: testCareersCollaborationsFormSubmission
+11:38:13.145 [main] ERROR Pageobject.BaseClass - Test failed: testEmptyCareersCollaborationsFormSubmission
+11:38:13.146 [main] INFO  Pageobject.BaseClass - WebDriver quit
+11:40:14.275 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+11:40:14.383 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+11:40:21.204 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+11:40:32.599 [main] INFO  Pageobject.BaseClass - Test passed: testCareersCollaborationsFormSubmission
+11:40:36.072 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+11:40:38.296 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyCareersCollaborationsFormSubmission
+11:40:38.297 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:31:25.876 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:31:33.596 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+14:31:37.799 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitContactForm
+14:31:38.160 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+14:31:40.335 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyContatusFormSubmission
+14:31:40.336 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:31:56.400 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:31:58.576 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+14:32:02.488 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitQueryForm
+14:32:03.127 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+14:32:06.293 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyQueryFormSubmission
+14:32:06.294 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:32:30.007 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:32:30.087 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+14:32:37.147 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+14:33:23.176 [main] INFO  Pageobject.BaseClass - Test passed: testCareersProfessionalsFormSubmission
+14:33:26.650 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+14:33:28.805 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyCareersProfessionalsFormSubmission
+14:33:28.806 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:33:46.386 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:33:46.476 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+14:33:53.159 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+14:34:21.434 [main] INFO  Pageobject.BaseClass - Test passed: testCareersCollaborationsFormSubmission
+14:34:24.909 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 550
+14:34:27.070 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyCareersCollaborationsFormSubmission
+14:34:27.071 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:51:17.208 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:51:38.596 [main] ERROR Pageobject.BaseClass - Test failed: testCareersProfessionalsFormSubmission
+14:51:39.488 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:52:31.356 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:52:51.815 [main] ERROR Pageobject.BaseClass - Test failed: testCareersProfessionalsFormSubmission
+14:52:52.070 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:53:58.838 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:53:58.927 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+14:54:03.881 [main] ERROR Pageobject.BaseClass - Test failed: testCareersProfessionalsFormSubmission
+14:54:04.100 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:55:40.307 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:55:40.397 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+14:55:48.207 [main] ERROR Pageobject.BaseClass - Test failed: testCareersProfessionalsFormSubmission
+14:55:48.209 [main] INFO  Pageobject.BaseClass - WebDriver quit
+14:57:11.178 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+14:57:11.284 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+14:57:12.881 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 400
+14:57:15.318 [main] INFO  Pageobject.BaseClass - Test passed: testCareersProfessionalsFormSubmission
+14:57:15.321 [main] INFO  Pageobject.BaseClass - WebDriver quit
+16:19:30.880 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+16:19:30.982 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+16:19:32.351 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 400
+16:19:55.120 [main] ERROR Pageobject.BaseClass - Test failed: testCareersProfessionalsFormSubmission
+16:19:55.122 [main] INFO  Pageobject.BaseClass - WebDriver quit
+16:24:17.676 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+16:24:17.764 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+16:24:19.572 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 400
+16:24:22.067 [main] INFO  Pageobject.BaseClass - Test passed: testCareersProfessionalsFormSubmission
+16:24:22.070 [main] INFO  Pageobject.BaseClass - WebDriver quit
+16:25:37.498 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+16:25:37.596 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+16:25:38.982 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 400
+16:25:41.485 [main] INFO  Pageobject.BaseClass - Test passed: testCareersProfessionalsFormSubmission
+16:25:41.492 [main] INFO  Pageobject.BaseClass - WebDriver quit
+16:44:01.110 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+16:44:01.231 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+16:44:02.763 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 400
+16:44:05.436 [main] INFO  Pageobject.BaseClass - Test passed: testCareersProfessionalsFormSubmission
+16:44:05.439 [main] INFO  Pageobject.BaseClass - WebDriver quit
+18:50:16.083 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+18:50:23.474 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 250
+18:50:30.778 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitContactForm
+18:50:31.128 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+18:50:33.304 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyContatusFormSubmission
+18:50:33.306 [main] INFO  Pageobject.BaseClass - WebDriver quit
+18:50:52.795 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+18:50:54.663 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+18:50:58.610 [main] INFO  Pageobject.BaseClass - Test passed: testSubmitQueryForm
+18:50:59.235 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 500
+18:51:02.673 [main] INFO  Pageobject.BaseClass - Test passed: testEmptyQueryFormSubmission
+18:51:02.675 [main] INFO  Pageobject.BaseClass - WebDriver quit
+09:52:37.003 [main] INFO  Pageobject.BaseClass - WebDriver initialized and website opened
+09:52:37.252 [main] INFO  Pageobject.BaseClass - Page scrolled to bottom
+09:52:38.765 [main] INFO  Pageobject.BaseClass - Page scrolled horizontally by 0 and vertically by 400
+09:53:01.757 [main] ERROR Pageobject.BaseClass - Test failed: testCareersProfessionalsFormSubmission
+09:53:01.759 [main] INFO  Pageobject.BaseClass - WebDriver quit

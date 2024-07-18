@@ -4,18 +4,52 @@
   <listeners>
     <listener class-name="Utility.TestListener"/>
   </listeners>
-  <test thread-count="5" name="ContactUs Tests(failed)">
+  <test thread-count="5" name="Form Submission Tests(failed)">
     <classes>
-      <class name="TestCases.CareersTC">
+      <class name="TestCases.ArticleshipTC">
+        <methods>
+          <include name="onTestCompletion"/>
+          <include name="testCareersProfessionalsFormSubmission"/>
+          <include name="tearDownExtentReports"/>
+          <include name="tearDown"/>
+          <include name="testEmptyArticleshipFormSubmission"/>
+          <include name="setUpExtentReports"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.ArticleshipTC -->
+      <class name="TestCases.CareersFirmCollaborationsTC">
+        <methods>
+          <include name="testCareersCollaborationsFormSubmission"/>
+          <include name="onTestCompletion"/>
+          <include name="tearDownExtentReports"/>
+          <include name="tearDown"/>
+          <include name="testEmptyCareersCollaborationsFormSubmission"/>
+          <include name="setUpExtentReports"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- TestCases.CareersFirmCollaborationsTC -->
+      <class name="TestCases.CareersProfessionalsTC">
         <methods>
           <include name="testEmptyCareersProfessionalsFormSubmission"/>
           <include name="onTestCompletion"/>
           <include name="tearDownExtentReports"/>
           <include name="tearDown"/>
           <include name="setUpExtentReports"/>
+          <include name="testCareersProfessionalsFormSubmission"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- TestCases.CareersTC -->
+      </class> <!-- TestCases.CareersProfessionalsTC -->
+      <class name="TestCases.QueryTC">
+        <methods>
+          <include name="testSubmitQueryForm"/>
+          <include name="onTestCompletion"/>
+          <include name="tearDownExtentReports"/>
+          <include name="tearDown"/>
+          <include name="setUpExtentReports"/>
+          <include name="setUp"/>
+          <include name="testEmptyQueryFormSubmission"/>
+        </methods>
+      </class> <!-- TestCases.QueryTC -->
     </classes>
-  </test> <!-- ContactUs Tests(failed) -->
+  </test> <!-- Form Submission Tests(failed) -->
 </suite> <!-- Failed suite [Test Suite] -->
